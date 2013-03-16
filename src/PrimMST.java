@@ -55,7 +55,6 @@ public class PrimMST {
         return mst;
     }
 
-
     // return weight of MST
     public double weight() {
         double weight = 0.0;
@@ -63,7 +62,6 @@ public class PrimMST {
             weight += e.weight();
         return weight;
     }
-
 
     // check optimality conditions (takes time proportional to E V lg* V)
     private boolean check(EdgeWeightedGraph G) {

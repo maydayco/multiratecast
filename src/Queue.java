@@ -11,8 +11,6 @@ import java.util.NoSuchElementException;
  *  <p>
  *  All queue operations except iteration are constant time.
  *  <p>
- *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  */
 public class Queue<Item> implements Iterable<Item> {
     private int N;         // number of elements on queue
