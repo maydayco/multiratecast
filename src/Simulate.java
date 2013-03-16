@@ -25,7 +25,6 @@ public class Simulate {
     else {
       frame.validate();
     }
-
     //Center the window
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     Dimension frameSize = frame.getSize();
